@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int a  = scanner.nextInt();
-	Sircle sircle= new Sircle();
-    Sircle.area(a);
-    Sircle.circumference(a);
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Write a radius please: ");
+        int input=scan.nextInt();
+     Sircle.area(input);
+     Sircle.circumtences(input);
     }
 }
